@@ -7,3 +7,4 @@ This repo is to track my progress and maintain streaks
 
 ##Daily progress
 Day 1: solved 10 java questions and attended more than 80 java mcq questions.
+day 2: Solved 10+ java questions and learned functions, decimal & binary conversions
