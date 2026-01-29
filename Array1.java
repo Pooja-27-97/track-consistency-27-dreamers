@@ -95,7 +95,7 @@ public class Array1 {
         //     System.out.print(marks[i] + " ");
         // }
 
-        arrayPair(marks);
-        subArray(marks);
+        // arrayPair(marks);
+        // subArray(marks);
     }
 }
