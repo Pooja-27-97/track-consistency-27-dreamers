@@ -11,3 +11,4 @@ Day 2: Solved 10+ java questions and learned functions, decimal & binary convers
 Day 3: Patterns in java and solved few problem on own.Learned object literlas in JS.
 Day 4: Arrays in java.
 Day 5: Solved more than 10 questions in java.
+Day 6: Methods in JS and revised some concepts of python.
