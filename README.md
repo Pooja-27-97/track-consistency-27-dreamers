@@ -12,3 +12,4 @@ Day 3: Patterns in java and solved few problem on own.Learned object literlas in
 Day 4: Arrays in java.
 Day 5: Solved more than 10 questions in java.
 Day 6: Methods in JS and revised some concepts of python.
+Day 7: Finding sum of sub arrays using different optimization methods
