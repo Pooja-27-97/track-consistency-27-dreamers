@@ -13,3 +13,4 @@ Day 4: Arrays in java.
 Day 5: Solved more than 10 questions in java.
 Day 6: Methods in JS and revised some concepts of python.
 Day 7: Finding sum of sub arrays using different optimization methods
+Day 8: Practiced more that 20 JS question.
