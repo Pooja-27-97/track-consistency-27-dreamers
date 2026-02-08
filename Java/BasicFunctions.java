@@ -1,4 +1,4 @@
-public class JavaBasics3 {
+public class BasicFunctions {
     public static int printAvg(int a, int b, int c) {
         return (a+b+c)/3;
     }

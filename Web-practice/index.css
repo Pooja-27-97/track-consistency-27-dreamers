@@ -21,9 +21,11 @@
 }
 .card img:hover {
     box-shadow: 5px 5px 5px gray;
+    transition: 1s;
 }
 .card:hover {
     box-shadow: 5px 5px 5px gray;
+    transition: 1s;
 }
 h2 {
     text-align: center;

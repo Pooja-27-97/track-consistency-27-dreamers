@@ -1,4 +1,4 @@
-public class JavaBasics2 {
+public class UseFunctions {
     public static boolean isPrime(int num) {
         if(num == 2) {
             return true;
