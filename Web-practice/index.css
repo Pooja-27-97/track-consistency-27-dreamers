@@ -1,0 +1,41 @@
+.outerBox {
+    width: 86%;
+    background-color: beige;
+    height: 600px;
+    margin: 60px;
+}
+.card {
+    height: 450px;
+    width: 400px;
+    display: inline-block;
+    border: 1px solid black;
+    padding: 8px;
+    margin-left: 40px;
+    margin-top: 40px;
+    justify-content: center;
+}
+.card img {
+    width: 100%;
+    height: 50%;
+    border-radius: 8px;
+}
+.card img:hover {
+    box-shadow: 5px 5px 5px gray;
+}
+.card:hover {
+    box-shadow: 5px 5px 5px gray;
+}
+h2 {
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: oblique;
+    color: purple;
+}
+h3 {
+    color: darkorange;
+}
+p {
+    word-spacing: 5px;
+    letter-spacing: 2px;
+}
