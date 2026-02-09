@@ -15,3 +15,4 @@ Day 6: Methods in JS and revised some concepts of python.
 Day 7: Finding sum of sub arrays using different optimization methods
 Day 8: Practiced more that 20 JS question.
 Day 9: Practicing front-end by making webpage and portfolio. Revising and practicing concepts of Java.
+Day 10: Practicing java problems and solved more than 20 problems.
