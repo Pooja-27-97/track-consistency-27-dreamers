@@ -1,5 +1,17 @@
 public class Operators {
     public static void main(String[] args) {
+
+        //Print reverse of a number
+        int num = 123456;
+        int original = num;
+        int reverse = 0;
+        while(num > 0) {
+            int lastdigit = num % 10;
+            reverse = (reverse * 10) + lastdigit;
+            num /= 10;
+        }
+        System.out.println("Original: " + original);
+        System.out.println("Reverse: "+ reverse);
         
         // int x = 2, y = 5;
         // int exp1 = (x * y / x); //5

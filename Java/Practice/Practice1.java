@@ -1,17 +1,10 @@
 public class Practice1 {
     public static void main(String[] args) {
-        int row = 7;
-        int count = 1;
-
-        for(int i=1; i <= row; i++) {
-            for(int j=1; j <= (row-i); j++) {
-                System.out.print("\t");
-            }
-            for(int j=1; j <= (i); j++) {
-                System.out.print(count + "\t\t");
-                count++;
-            }
-            System.out.println();
-        }
+        //Max of 3 numbers
+        // int a = 100;
+        // int b = 50;
+        // int c = 20;
+        // int result = (a > b) ? ((a > c) ? a: c): ((b > c)? b: c);
+        // System.out.println(result);
     }
 }
