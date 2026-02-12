@@ -13,7 +13,7 @@ public class SubarrayMethods {
         }
     }
 
-    public static void printSubArray(int marks[]) {
+    public static void printSubArraySum(int marks[]) {
         int curr = 0;
         int max = Integer.MIN_VALUE;
 
