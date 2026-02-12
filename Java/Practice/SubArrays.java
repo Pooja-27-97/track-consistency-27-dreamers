@@ -30,18 +30,31 @@ public class SubArrays {
 
         for(int i=0; i < arr.length; i++) {
             int start = i;
-            for(int j=0; j < arr.length; j++) {
+            for(int j=i; j < arr.length; j++) {
                 int end = j;
 
                 curr = start == 0? prefix[end]: prefix[end] - prefix[start - 1];
+                
+                if(curr > max) max = curr;
             }
-            if(curr > max) max = curr;
         }
         System.out.println("Max Sum: " + max);
+    }
+    public static void KadanesAlgm(int marks[]) {
+        int curr = 0;
+        int max = Integer.MIN_VALUE;
+
+        for(int i=0; i < marks.length; i++) {
+            curr += marks[i];
+            if(curr < 0) curr = 0;
+            if(curr > max) max = curr;
+        }
+        System.out.println(max);
     }
     public static void main(String[] args) {
         int marks[] = {-2, -3, 4, -1, -2, 1, 5, -3};
         // subArraySum(marks);
-        prefixSubArraySum(marks);
+        // prefixSubArraySum(marks);
+        // KadanesAlgm(marks);
     }
 }
