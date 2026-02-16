@@ -49,24 +49,10 @@ public class Practice2 {
             System.out.println();
         }
     }
-
-    public static void Butterfly(int row) {
-        for(int i=1; i <= row; i++) {
-            for(int j=1; j <= row; j++) {
-                if((i-j) >= 0) System.out.print("* ");
-
-                
-
-                if((i+j) >= row+1) System.out.print("* ");
-            }
-            System.out.println();
-        }
-    }
     public static void main(String args[]) {
         // invertedUpperTriangle(5);
         // invertedLowerTriangle(5);
         // lowerTriangle(5);
         // upperTriangle(5);
-        Butterfly(5);
     }
 }
