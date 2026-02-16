@@ -19,3 +19,4 @@ Day 10: Practicing java problems and solved more than 20 problems.
 Day 11: Practiced java patterns and additional problems.
 Day 12: Just did some changes
 Day 13: Solved patterns problems with different approaches.
+Day 14: Learned bubble, selection, insertion and counting sorting techniques
