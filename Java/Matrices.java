@@ -1,3 +1,5 @@
+
+
 public class Matrices {
     public static boolean searchElement(int mat[][], int key) {
         for(int i=0; i < mat.length; i++) {
@@ -56,6 +58,43 @@ public class Matrices {
         }
         System.out.println();
     }
+
+    public static int diagonalSum(int matrix[][]) {
+        int sum = 0;
+
+        //brute-force -> O(n^2)
+        // for(int i=0; i < matrix.length; i++) {
+        //     for(int j=0; j < matrix[0].length; j++) {
+        //         if(i == j) sum += matrix[i][j];
+        //         else if (i+j == matrix.length-1) sum += matrix[i][j];
+        //     }
+        // }
+
+        //O(n)
+        for(int i=0; i < matrix.length; i++) {
+            //primary
+            sum += matrix[i][i];
+            //secondary
+            if(i != matrix.length-i-1)
+            sum += matrix[i][matrix.length-i-1];
+        }
+        return sum;
+    }
+
+    public static boolean stairCaseSearch(int matrix[][], int key) {
+        int row = 0;
+        int col = matrix[0].length - 1;
+
+        while(row < matrix.length && col >=  0) {
+            if(matrix[row][col] == key) {
+                System.out.println("Found at " + row +"," + col);
+                return true;
+            } else if (key < matrix[row][col]) col--;
+            else row++;
+        }
+        System.out.println("Key not found");
+        return false;
+    }
     public static void main(String[] args) {
         int matrix[][] = {
                         {1, 2, 3, 4},
@@ -63,6 +102,8 @@ public class Matrices {
                         {9, 10, 11, 12},
                         {13, 14, 15, 16}
                     };
-        spiralMatrix(matrix);
+        // spiralMatrix(matrix);
+        // System.out.println(diagonalSum(matrix));
+        stairCaseSearch(matrix, 7);
     }
 }
