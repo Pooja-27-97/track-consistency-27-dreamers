@@ -20,3 +20,4 @@ Day 11: Practiced java patterns and additional problems.
 Day 12: Just did some changes
 Day 13: Solved patterns problems with different approaches.
 Day 14: Learned bubble, selection, insertion and counting sorting techniques
+Day 15: Learned 2D arrays and different searching problems on it.
