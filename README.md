@@ -22,3 +22,4 @@ Day 13: Solved patterns problems with different approaches.
 Day 14: Learned bubble, selection, insertion and counting sorting techniques
 Day 15: Learned 2D arrays and different searching problems on it.
 Day 16: Learned about strings
+Day 17: Bit Manipulation
