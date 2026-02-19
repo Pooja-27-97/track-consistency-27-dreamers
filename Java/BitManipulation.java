@@ -29,11 +29,52 @@ public class BitManipulation {
         int bitMask = newBit << i;
         return (bit | bitMask);
     }
+
+    public static int clearIBits(int n, int i) {
+        int bitMask = (~0)<<i;
+        return (n & bitMask);
+    }
+
+    public static int clearRangeBits(int n, int i, int j) {
+        int a = (~0)<<(j+1);
+        int b = (1<<i)-1;
+        int bitMask = a|b;
+        return (n & bitMask);
+    }
+
+    public static boolean isPowerOfTwo(int n) {
+        return (n & (n-1)) == 0;
+    }
+
+    public static int countSetBits(int n) {
+        int count = 0;
+        while(n > 0) {
+            if((n & 1) != 0) count++;
+            n = n >> 1;
+        }
+        return count;
+    }
+
+    public static int fastExpo(int a, int n) {
+        int ans = 1;
+
+        while(n > 0) {
+            if((n & 1) != 0) ans = ans*a;
+            a = a*a;
+            n = n>>1;
+        }
+        return ans;
+    }
     public static void main(String[] args) {
         // checkOddEven(10);
         // System.out.println(getIthBit(8, 3));
         // System.out.println(setIthBit(9, 2));
         // System.out.println(clearIthBit(9, 3));
-        System.out.println(updateIthBit(10, 2, 1));
+        // System.out.println(updateIthBit(10, 2, 1));
+        // System.out.println(clearIBits(15, 2));
+        // System.out.println(clearRangeBits(10, 2, 7));
+        // System.out.println(isPowerOfTwo(4));
+        // System.out.println(countSetBits(15));
+        System.out.println(fastExpo(3, 5));
     }
 }
