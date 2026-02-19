@@ -19,10 +19,21 @@ public class BitManipulation {
         int bitmask = ~(1<<i);
         return (bit & bitmask);
     }
+
+    public static int updateIthBit(int bit,int i, int newBit) {
+        // if(newBit == 0) return clearIthBit(bit, i);
+        // else return setIthBit(bit, i);
+
+        //or
+        bit = clearIthBit(bit, i);
+        int bitMask = newBit << i;
+        return (bit | bitMask);
+    }
     public static void main(String[] args) {
         // checkOddEven(10);
         // System.out.println(getIthBit(8, 3));
         // System.out.println(setIthBit(9, 2));
-        System.out.println(clearIthBit(9, 3));
+        // System.out.println(clearIthBit(9, 3));
+        System.out.println(updateIthBit(10, 2, 1));
     }
 }
