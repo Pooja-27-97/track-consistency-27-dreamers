@@ -27,3 +27,4 @@ Day 18: Complete time for concepts revision.
 Day 19: Java and JS concepts revision.
 Day 20: Java and JS concepts revision.
 Day 21: Back to track after few days of pause
+Day 22: Practiced JS and started learning python
