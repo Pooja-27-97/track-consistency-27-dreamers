@@ -1,0 +1,7 @@
+# name = input("Enter your name : ")
+# print(len(name))
+# print(int(27.97))
+# print(27 == 27.0)
+# print(89 == '89')
+# print(True or False)
+# print(not False)
