@@ -71,3 +71,113 @@
 // let rand = 4;
 // if(arr.includes(rand)) console.log("Exists in an array");
 // else console.log("Doesn't exists in an array");
+
+
+// let arr = [1,2,3,4,5,6,2,3];
+// let num = parseInt(prompt("Enter a element"));
+
+// for(let i =0; i < arr.length; i++) {
+//     if(arr[i] === num) arr.splice(i, 1);
+// }
+
+// console.log("Array after deleting all occurrences of given element");
+// console.log(arr);
+
+
+// let num = parseInt(prompt("Enter a number"));
+// let count = 0;
+
+// while(num > 0) {
+//     count++;
+//     num = Math.floor(num / 10);
+// }
+
+// console.log(`Number of digits: ${count}`);
+
+
+// let num = parseInt(prompt("Enter a number"));
+// let sum = 0;
+
+// while(num > 0) {
+//     let lastDigit = num % 10;
+//     sum += lastDigit;
+//     num = Math.floor(num / 10);
+// }
+
+// console.log(`Sum of digits: ${sum}`);
+
+
+// let num = parseInt(prompt("Enter a number"));
+// let fact = 1;
+
+// for(let i=1; i <= num; i++) {
+//     fact *= i;
+// }
+
+// console.log(`Factorial of a number: ${fact}`);
+
+
+// let arr=[1,2,3,4,5,6,2,3];
+// let max = 0;
+
+// for(elt of arr) {
+//     if(elt > max) max = elt;
+// }
+
+// console.log(`Largest element in an array: ${max}`);
+
+
+// console.log(Math.floor((Math.random() * 6) + 1));
+
+
+// let loid = {
+//     name: "Loid Foger",
+//     codeword: "Twilight",
+//     age: 29,
+//     gender: "Male",
+//     1: "Spy"
+// }
+// console.log(loid);
+
+
+// let person = {
+//     name: "Johan",
+//     age: 25,
+//     nickname: "Jo",
+//     field: "Medical",
+//     category: "Sugar Daddy",
+//     gender: "Male"
+// }
+// person.category = "Super Rich";
+// person.country = "Thai Land";
+// console.log(person);
+
+
+// let favChar = "sukuna";
+// let guess = prompt("Guess my fav character from Jujustu Kaisen");
+
+// while(true) {
+//     if(guess.toLocaleLowerCase() == favChar || guess.toLocaleLowerCase() == 'quit' || guess.toLocaleLowerCase() == 'q') break;
+
+//     guess = prompt("Oops, Wrong guess! Try again");
+// }
+
+// if(guess.toLocaleLowerCase() == favChar) console.log("Congrats! Right guess");
+// else console.log("Out of the game");
+
+
+let random = Math.floor(Math.random() * 100) + 1;
+let guess = parseInt(prompt("Guess the random number"));
+
+while(true) {
+    if(random == guess) break;
+
+    if(guess > random) {
+        guess = parseInt(prompt("Try to guess lower number"));
+    } else if (guess < random) {
+        guess = parseInt(prompt("Try to guess greater number"));
+    }
+}
+
+if(guess == random) console.log("Congrats! Right guess");
+else console.log("Out of game");
