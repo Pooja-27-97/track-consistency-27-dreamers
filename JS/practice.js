@@ -166,18 +166,124 @@
 // else console.log("Out of the game");
 
 
-let random = Math.floor(Math.random() * 100) + 1;
-let guess = parseInt(prompt("Guess the random number"));
+// let random = Math.floor(Math.random() * 100) + 1;
+// let guess = parseInt(prompt("Guess the random number"));
 
-while(true) {
-    if(random == guess) break;
+// while(true) {
+//     if(random == guess) break;
 
-    if(guess > random) {
-        guess = parseInt(prompt("Try to guess lower number"));
-    } else if (guess < random) {
-        guess = parseInt(prompt("Try to guess greater number"));
-    }
-}
+//     if(guess > random) {
+//         guess = parseInt(prompt("Try to guess lower number"));
+//     } else if (guess < random) {
+//         guess = parseInt(prompt("Try to guess greater number"));
+//     }
+// }
 
-if(guess == random) console.log("Congrats! Right guess");
-else console.log("Out of game");
+// if(guess == random) console.log("Congrats! Right guess");
+// else console.log("Out of game");
+
+
+// let students = {
+//     Muzan: {
+//         age: 27,
+//         field: "Science"
+//     },
+//     Sukuna: {
+//         age: 1000,
+//         field: "Curse"
+//     },
+//     Loid: {
+//         age: 29,
+//         field: "Spy"
+//     }
+// }
+
+// console.log(students);
+// console.log(students["Loid"]["age"]);
+// console.log(students.Muzan.field);
+
+
+// let students = [
+//     {
+//         name: "Johan",
+//         partner: "North"
+//     },
+//     {
+//         name: "TonFah",
+//         partner: "Typhoon"
+//     },
+//     {
+//         name: "Hill",
+//         partner: "Easter"
+//     }
+// ]
+
+// console.log(students[0]["name"]);
+// console.log(students[2].partner);
+// console.log(students[1]);
+
+
+// let arr = [4, 5, 9, 2, 4, 10, 39, 26];
+// let num = 10;
+// printLargestElement(arr, num);
+
+// function printLargestElement(arr, num) {
+//     for(elt of arr) {
+//         if(elt > num) console.log(elt);
+//     }
+// }
+
+
+// let str = "abcdabcdefgggh";
+
+// let uniqueChar = function(str) {
+//     let ans = "";
+//     for(char of str) {
+//         if(!(ans.includes(char))) ans+=char;
+//     }
+//     return ans;
+// }
+// console.log(uniqueChar(str));
+
+
+// const LongestCountry = function() {
+//     let country = [];
+//     let max = 0;
+//     let maxIdx = 0;
+//     let range = parseInt(prompt("Enter the number of countries"));
+//     for(let i=1; i <= range; i++) {
+//         country.push(prompt(`Enter country ${i}`))
+//     }
+//     for(let i=0; i < country.length; i++) {
+//         if(country[i].length > max) {
+//             max = country[i].length;
+//             maxIdx = i;
+//         }
+//     }
+//     return country[maxIdx]
+// }
+// console.log(LongestCountry());
+
+
+// let str = prompt("Enter any string");
+
+// function countVowels(str) {
+//     let newStr = str.toLowerCase();
+//     let count=0;
+//     for(char of newStr) {
+//         if(char == 'a' ||char == 'e' ||char == 'i' ||char == 'o' ||char == 'u') {
+//             count++;
+//         }
+//     }
+//     return count;
+// }
+// console.log(countVowels(str));
+
+
+// let start = parseInt(prompt("Enter the start range"));
+// let end = parseInt(prompt("Enter the end range"));
+// console.log(printRandom(start, end));
+
+// function printRandom(start, end) {
+//     return Math.floor((Math.random() * (end-start+1)) + start);
+// }
