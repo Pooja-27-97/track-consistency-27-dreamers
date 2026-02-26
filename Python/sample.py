@@ -1,4 +1,4 @@
-import random, sys
+import random, sys, math
 # name = input("Enter your name : ")
 # print(len(name))
 # print(int(27.97))
@@ -59,3 +59,28 @@ import random, sys
 # for i in range(1, 6):
 #     fact = fact * i
 # print(fact)
+
+
+# def check_even_odd(num):
+#     if(num % 2 == 0):
+#         return "Even"
+#     else:
+#         return "Odd"
+    
+# num = int(input("Enter an integer: "))
+# print(check_even_odd(num))
+
+
+# def sum_of_digits(num):
+#     sum = 0
+#     while(num > 0):
+#         last_digit = num % 10
+#         sum = sum + last_digit
+#         num = int(num / 10)
+#     return sum
+    
+# num = int(input("Enter an integer: "))
+# print("Sum of given digits: " + str(sum_of_digits(num)))
+
+
+# print(math.remainder(49, 2))
