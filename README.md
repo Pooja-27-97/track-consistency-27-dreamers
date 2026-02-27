@@ -26,7 +26,7 @@ Day 17: Bit Manipulation
 Day 18: Complete time for concepts revision.
 Day 19: Java and JS concepts revision.
 Day 20: Java and JS concepts revision.
-Day 21: Back to track after few days of pause
-Day 22: Practiced JS and started learning python
+Day 21: Back to track after few days of pause.
+Day 22: Practiced JS and started learning python.
 Day 23: Practiced JS and done conditional statements, loops in python.
 Day 24: Function in JS and pyhton.
