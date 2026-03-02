@@ -84,3 +84,52 @@ import random, sys, math
 
 
 # print(math.remainder(49, 2))
+
+
+# def print_remainder(num1, num2):
+#     try:
+#         return (num1/num2)
+#     except ZeroDivisionError:
+#         print("Cannot divide by zero")
+
+# num1 = int(input("Enter Divisor: "))
+# num2 = int(input("Enter divider: "))
+# print(print_remainder(num1, num2))
+
+
+
+# arr = [1, 2, 3, 'apple', 27.97]
+# for i in range (0, len(arr)):
+#     print(arr[i])
+
+# lst = [["Hill", "Johan", "Fah", "Arithit"],["Easter", "North", "Phoon", "Dao"]]
+# print(lst[-1][-3])
+# print(lst[0][1:3])
+# print(len(lst[0][1]))
+# print(len("still with you"))
+
+
+# lst = ["Muzan", "Sukuna", "Ametio"]
+# del lst[-1]
+# print(lst)
+# print(lst)
+# lst[0] = "Loid"
+# print(lst)
+# lst[1] = lst[2]
+# print(lst)
+
+
+# top = ["Hill", "Johan", "Fah", "Arithit"]
+# print("Fah" not in top)
+# bottom = ["Easter", "North", "Phoon", "Dao"]
+# hill, johan, fah, arithit = bottom
+# print(fah)
+
+# print(top+bottom)
+# print(top[1]*5)
+
+
+# fruit = ['apple']
+# fruit += 'grapes'
+# fruit *= 2
+# print(fruit)
