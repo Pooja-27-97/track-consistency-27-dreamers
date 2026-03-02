@@ -287,3 +287,84 @@
 // function printRandom(start, end) {
 //     return Math.floor((Math.random() * (end-start+1)) + start);
 // }
+
+
+// try {
+//     console.log(a*10);
+// } catch(err) {
+//     console.log("a is not initialized");
+// }
+
+
+// const greet = () => {
+//     console.log("Hello");
+// }
+
+// const sum = (a, b) => a+b
+// const mul = (a, b) => a*b
+
+// let interval = setTimeout(function greet() {
+//     console.log("Alola");
+//     console.log("Akala");
+// }, 5000);
+
+// let interval = setInterval(function greet() {
+//     console.log("Alola");
+//     console.log("Akala");
+// }, 2000);
+
+// setTimeout(() => {
+//     clearInterval(interval);
+// }, 10000);
+
+// let students = {
+//     anime: "Spy*Family",
+//     loid: {
+//         age: 29,
+//         code: "twilight",
+//         inLoid: () => {
+//             console.log(this);
+//         }
+//     },
+//     yor: {
+//         age: 27,
+//         code: "thorn princess",
+//         inYor: function() {
+//             console.log(this);
+//         }
+//     }
+// }
+
+
+// const loid = {
+//     age: 29,
+//     family: function() {
+//         console.log(this);
+//         let daughter = () => {
+//             console.log(this);
+//         }
+//         console.log(daughter());
+//     }
+// }
+
+// let arr = [1, 2, 3, 4, 5];
+
+// const arrayAverage = (arr) => {
+//     let sum = 0;
+//     for(let elt of arr) {
+//         sum += elt;
+//     }
+//     return (sum / arr.length);
+// }
+// console.log(arrayAverage(arr));
+
+
+// const isEven = (num) => (num % 2 == 0);
+
+// const object = {
+//     message: 'Hello, World!',
+//     logMessage() {
+//         console.log(this.message);
+//     }
+// };
+// setTimeout(object.logMessage, 1000);
