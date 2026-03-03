@@ -334,6 +334,7 @@
 //         }
 //     }
 // }
+// console.log(students.map(student => student.code));
 
 
 // const loid = {
@@ -372,11 +373,33 @@
 
 
 let arr = [1, 2, 3, 4, 5];
-let eve = (arr) => {
-    for(let elt of arr) {
-        if(arr.every(elt != 0)) console.log("True");
-    }
-}
-eve(arr);
+// console.log(arr.every(elt => elt < 0));
 // console.log(arr.at(2));
+// console.log(arr.fill(7, 2, 3));
+// console.log(arr.filter(elt => elt%2 == 0));
+// console.log(arr.find(elt => elt > 40));
+// arr.forEach(elt => console.log(elt));
+// console.log(arr.join("~~"));
+// console.log(arr.reduce((sum, elt) => sum+=elt));
+// arr.set([29, 30]);
+// console.log(arr.map(elt => elt*2));
 
+// let students = [
+//     {
+//         name: "Loid",
+//         age: 29,
+//         code: "twilight",
+//         inLoid: () => {
+//             console.log(this);
+//         }
+//     },
+//     {
+//         name: "Yor",
+//         age: 27,
+//         code: "thorn princess",
+//         inYor: function() {
+//             console.log(this);
+//         }
+//     }
+// ]
+// console.log(students.map(student => student.code));
