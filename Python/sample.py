@@ -133,3 +133,26 @@ import random, sys, math
 # fruit += 'grapes'
 # fruit *= 2
 # print(fruit)
+
+
+# fruits = ["Apple", "banana", "Cherry", "Dragin fruit", "Egg fruit", "Fig fruit"]
+# try:
+#     print(fruits.index("Fig fruit"))
+# except ValueError:
+#     print("Not in the list")
+    
+# fruits.append("Grapes")
+# fruits.insert(2, "kiwi")
+# print(fruits)
+# fruits.remove("kiwi")
+# print(fruits)
+
+
+# top = ["Hill", "Johan", "Fah", "Arithit"]
+# top.sort()
+# print(top)
+
+
+# name = input("Enter your name: ")
+# for i in top:
+#     print("********************************** " + i + " **********************************")
