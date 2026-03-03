@@ -368,3 +368,15 @@
 //     }
 // };
 // setTimeout(object.logMessage, 1000);
+
+
+
+let arr = [1, 2, 3, 4, 5];
+let eve = (arr) => {
+    for(let elt of arr) {
+        if(arr.every(elt != 0)) console.log("True");
+    }
+}
+eve(arr);
+// console.log(arr.at(2));
+
