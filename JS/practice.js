@@ -499,4 +499,37 @@
 // console.log(upperName.map((elt) => elt.toUpperCase()));
 
 
-let arr2 = [10, 20, 30, 40, 50];
+// let arr = [10, 20, 30, 40, 50];
+
+// const doubleAndReturnArgs = (arr, ...args) => [
+// ...arr,
+// ...args.map((v) => v * 2),
+// ];
+
+// console.log(doubleAndReturnArgs([1, 2, 3], 4, 4, 5, 8));
+// doubleAndReturnArgs([2], 10, 4);
+
+
+// let demons = {
+//     Muzan: {
+//         age: 27,
+//         field: "Science"
+//     },
+//     Sukuna: {
+//         age: 1000,
+//         field: "Curse"
+//     }
+// }
+
+// let family = {
+//     Loid: {
+//         age: 29,
+//         field: "Spy"
+//     },
+//     Yor: {
+//         age: 27,
+//         field: "Assasin"
+//     }
+// }
+
+// const mergeObjects = (demons, family) => ({...demons, ...family});
