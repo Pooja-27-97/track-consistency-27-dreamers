@@ -372,7 +372,7 @@
 
 
 
-let arr = [1, 2, 3, 4, 5];
+// let arr = [1, 2, 3, 4, 5];
 // console.log(arr.every(elt => elt < 0));
 // console.log(arr.at(2));
 // console.log(arr.fill(7, 2, 3));
@@ -403,3 +403,100 @@ let arr = [1, 2, 3, 4, 5];
 //     }
 // ]
 // console.log(students.map(student => student.code));
+
+
+// let arr1 = [1, 2, 3, 4, 5];
+// let arr2 = [10, 20, 30, 40, 50];
+// let arr3 = arr1.concat(arr2);
+// arr3.pop();
+// console.log(arr3);
+// console.log([...arr1, "Hello",...arr2]);
+
+// let dup = [...arr];
+// dup.pop();
+// dup.push(7);
+// console.log(arr);
+// console.log(dup);
+
+
+// let students = {
+//     Muzan: {
+//         age: 27,
+//         field: "Science"
+//     },
+//     Sukuna: {
+//         age: 1000,
+//         field: "Curse"
+//     },
+//     Loid: {
+//         age: 29,
+//         field: "Spy"
+//     }
+// }
+
+// let guys = {...students, gender:"Male"};
+// guys.Sukuna.age = 1001;
+// console.log(guys);
+// console.log(students);
+
+
+// const state = {
+//   name: "Krishna",
+//   age: 22
+// };
+
+// const newState = {
+//   ...state,
+//   age: 23
+// };
+
+
+// let arr2 = [10, 20, 30, 40, 50];
+// const [first, second, ...rest] = arr2;
+
+
+// let name = ["hill", "johan", "fah", "Sukuna", "Muzan"];
+// let [nerd, daddy, killer, ...rest] = name;
+
+
+// let students = {
+//     Muzan: {
+//         age: 27,
+//         field: "Science"
+//     },
+//     Sukuna: {
+//         age: 1000,
+//         field: "Curse"
+//     },
+//     Loid: {
+//         age: 29,
+//         field: "Spy"
+//     }
+// }
+
+// let {Muzan:{age, ...rest}} = students;
+// let {Muzan, Loid} = students;
+
+
+// let arr2 = [10, 20, 30, 40, 50];
+// const avgSum = (arr2) => {
+//     let sum = arr2.reduce((sum, elt) => sum+=elt)
+//     console.log("Sum: " , sum);
+//     console.log("Average: ", (sum/2));
+
+// }
+// console.log(arr2.map((elt) => elt*elt));
+// const [first, ,second] = arr2;
+
+
+// let arr2 = [10, 20, 30, 40, 50];
+// console.log(arr2.map((elt) => elt+5));
+
+
+// let name = ["hill", "johan", "fah", "sukuna", "muzan"];
+// const upperName = [...name];
+// console.log(name);
+// console.log(upperName.map((elt) => elt.toUpperCase()));
+
+
+let arr2 = [10, 20, 30, 40, 50];
