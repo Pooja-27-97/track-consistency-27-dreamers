@@ -32,3 +32,4 @@ Day 23: Practiced JS and done conditional statements, loops in python.
 Day 24: Function in JS and pyhton.
 Day 25: Try block in JS and python, list in python and arrow function in JS
 Day 26: Array methods in JS.
+Day 27: Spread, rest and destructing in JS.
