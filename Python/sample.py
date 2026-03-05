@@ -1,4 +1,4 @@
-import random, sys, math
+import random, sys, math, copy
 # name = input("Enter your name : ")
 # print(len(name))
 # print(int(27.97))
@@ -98,13 +98,13 @@ import random, sys, math
 
 
 
-# arr = [1, 2, 3, 'apple', 27.97]
+# arr = (1, 2) 'apple', 27.97]
 # for i in range (0, len(arr)):
 #     print(arr[i])
 
 # lst = [["Hill", "Johan", "Fah", "Arithit"],["Easter", "North", "Phoon", "Dao"]]
-# print(lst[-1][-3])
-# print(lst[0][1:3])
+# print(ls([-1]))
+# print(ls([0][))
 # print(len(lst[0][1]))
 # print(len("still with you"))
 
@@ -156,3 +156,24 @@ import random, sys, math
 # name = input("Enter your name: ")
 # for i in top:
 #     print("********************************** " + i + " **********************************")
+
+
+# print(type(("hello",)))
+
+# lst = [1, 2, 3, 4]
+# tup = tuple(lst)
+# print(lst)
+# print(tup)
+
+# tup = (1, 2, 3)
+# lst = list(tup)
+# print(lst)
+# print(tup)
+
+# print(tuple("kandy"))
+
+# arr1 = [1, 2, 3]
+# arr2 = copy.deepcopy(arr1)
+# arr2.append(5)
+# print(arr1)
+# print(arr2)
