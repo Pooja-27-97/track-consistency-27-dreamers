@@ -34,3 +34,4 @@ Day 25: Try block in JS and python, list in python and arrow function in JS
 Day 26: Array methods in JS.
 Day 27: Spread, rest and destructing in JS.
 Day 28: DOM concepts in JS and tuples in python
+Day 29: Dictionary in Python
