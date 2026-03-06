@@ -177,3 +177,25 @@ import random, sys, math, copy
 # arr2.append(5)
 # print(arr1)
 # print(arr2)
+
+
+# couples = {"Johan":"North", "TonFah":"Typhoon", "Hill":"Easter", "Arithit":"Dao"}
+# couples["Tiger"] = "Naoi"
+# couples.setdefault('name','Fourever you')
+# print(couples.get('Johan'))
+# print(couples)
+
+# print("Hill" not in couples.values())
+# print(couples.keys())
+# print(type(couples))
+# print(couples["TonFah"])
+
+
+# lst1 = [2, 4, 6]
+# lst2 = [4, 6, 2]
+# print(lst1 == lst2)
+
+# dict1 = {2, 4, 6}
+# dict2 = {4, 6, 2}
+# print(dict1 == dict2)
+
