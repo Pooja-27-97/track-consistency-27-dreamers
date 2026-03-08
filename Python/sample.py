@@ -199,3 +199,12 @@ import random, sys, math, copy
 # dict2 = {4, 6, 2}
 # print(dict1 == dict2)
 
+# print('North is Johan\'s wife.\tThey have special episodes.\nThey are the one who stole the spotlight.')
+
+# print('''North,
+#     I had a crush on the from
+#         past 3 year''')
+
+
+# str = 'Dreams are powerful'
+# print(str.find('powerful'))
