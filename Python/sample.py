@@ -205,6 +205,21 @@ import random, sys, math, copy
 #     I had a crush on the from
 #         past 3 year''')
 
-
 # str = 'Dreams are powerful'
 # print(str.find('powerful'))
+
+
+# print('Hello'.replace('l','p'))
+
+# caps = 'dReamS'.upper()
+# sml = caps.lower()
+# print(caps.islower())
+# print(sml.isupper())
+
+# print('dreams are powerful'.capitalize())
+
+# print('hello'.isalpha())
+# print('hello56'.isalnum())
+# print('1258265'.isdecimal())
+# print('\n'.isspace())
+# print('Dreams Are Powerful'.istitle())
