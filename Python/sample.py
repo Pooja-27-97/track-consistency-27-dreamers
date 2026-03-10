@@ -223,3 +223,20 @@ import random, sys, math, copy
 # print('1258265'.isdecimal())
 # print('\n'.isspace())
 # print('Dreams Are Powerful'.istitle())
+
+# print("Hello".endswith('Hello'))
+
+# fruits = ["Apple", "banana", "Cherry", "Dragin fruit", "Egg fruit", "Fig fruit"]
+# print('$'.join(fruits))
+
+
+# print("Apple$banana$Cherry$Dragin fruit$Egg fruit$Fig fruit".split('$'))
+
+# print('-'.join('I win every single day'))
+# print('Am unstoppable today'.split(' '))
+
+# print('hello'.rjust(10, '*'))
+# print('dreams'.ljust(20, '-'))
+# print('anya'.center(10, '$'))
+
+# print('$$$$$$$Hello$$$world$$$$$'.strip('$'))
