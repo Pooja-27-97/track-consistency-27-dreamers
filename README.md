@@ -35,5 +35,6 @@ Day 26: Array methods in JS.
 Day 27: Spread, rest and destructing in JS.
 Day 28: DOM concepts in JS and tuples in python
 Day 29: Dictionary in Python
-Day 30: Strings in JS
-Day 31: String methods in JS
+Day 30: Strings in python
+Day 31: String methods in python
+Day 32: String methods in python and DOM concepts in JS
