@@ -240,3 +240,18 @@ import random, sys, math, copy
 # print('anya'.center(10, '$'))
 
 # print('$$$$$$$Hello$$$world$$$$$'.strip('$'))
+
+# sum = 0
+# num = int(input("Enter an integer: "))
+# mul = num * 9
+# print(mul)
+# while(mul):
+#     last = mul % 10
+#     sum = sum + last
+#     mul = mul // 10
+
+# print(sum)
+
+
+# num = int(input("Enter number: "))
+# print(num / 999)
