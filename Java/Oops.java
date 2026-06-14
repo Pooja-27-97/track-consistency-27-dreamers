@@ -39,10 +39,13 @@ public class Oops {
 
         // Student s1 = new Student();
         // s1.school = "JKV";
-        Dog d1 = new Dog();
-        System.out.println(d1.color);
+        // Dog d1 = new Dog();
+        // System.out.println(d1.color);
+        
     }
 }
+
+
 
 class Animal {
     String color;
