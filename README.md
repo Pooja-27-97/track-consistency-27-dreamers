@@ -38,3 +38,7 @@ Day 29: Dictionary in Python
 Day 30: Strings in python
 Day 31: String methods in python
 Day 32: String methods in python and DOM concepts in JS
+
+
+## Come Back
+Day 1: OOPS concepts
